@@ -1,0 +1,69 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "actor": "priya.nair@company.com",
+      "role": "admin",
+      "action": "DELETE_USER",
+      "resource": "/api/users/334",
+      "resourceType": "USER",
+      "ipAddress": "192.168.1.45",
+      "region": "ap-south-1",
+      "severity": "HIGH",
+      "status": "Unresolved",
+      "timestamp": "2025-06-14T08:32:11Z"
+    },
+    {
+      "id": 2,
+      "actor": "rahul.kumar@company.com",
+      "role": "security",
+      "action": "LOGIN",
+      "resource": "/login",
+      "resourceType": "AUTH",
+      "ipAddress": "192.168.1.50",
+      "region": "us-east-1",
+      "severity": "LOW",
+      "status": "Resolved",
+      "timestamp": "2025-06-14T09:15:10Z"
+    },
+    {
+      "id": 3,
+      "actor": "anitha.s@company.com",
+      "role": "admin",
+      "action": "CREATE_USER",
+      "resource": "/api/users",
+      "resourceType": "USER",
+      "ipAddress": "192.168.2.21",
+      "region": "eu-west-1",
+      "severity": "MEDIUM",
+      "status": "Resolved",
+      "timestamp": "2025-06-15T11:20:05Z"
+    },
+    {
+      "id": 4,
+      "actor": "john.doe@company.com",
+      "role": "auditor",
+      "action": "UPDATE_USER",
+      "resource": "/api/users/110",
+      "resourceType": "USER",
+      "ipAddress": "10.0.0.12",
+      "region": "ap-south-1",
+      "severity": "HIGH",
+      "status": "Unresolved",
+      "timestamp": "2025-06-16T14:50:30Z"
+    },
+    {
+      "id": 5,
+      "actor": "meera@company.com",
+      "role": "security",
+      "action": "LOGOUT",
+      "resource": "/logout",
+      "resourceType": "AUTH",
+      "ipAddress": "172.16.0.15",
+      "region": "us-east-1",
+      "severity": "LOW",
+      "status": "Resolved",
+      "timestamp": "2025-06-17T17:05:42Z"
+    }
+  ]
+}
